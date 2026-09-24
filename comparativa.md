@@ -66,3 +66,24 @@ Que el código sea libre no significa que montar el sistema te salga gratis. Pon
 * **Módulos clave:** Gestión a tope de clientes, ver cómo va el embudo de ventas, automatizar tareas y reportes en tiempo real.
 * **Qué máquina pide:** Conexión a internet y un navegador web o el móvil, nada más.
 * **Fuente:** https://www.salesforce.com/es/products/sales-cloud/ (Mirado en septiembre de 2026).
+
+---
+
+## 4. Fe de Erratas del Tema 2
+
+He estado mirando los apuntes del Tema 2 y hay algunas cosas que se han quedado bastante atrasadas respecto a cómo está el mercado ahora mismo:
+
+1. **Versiones súper antiguas de Odoo y ERPNext:**
+   * *En el tema (pág. 6):* Dice que ERPNext va por la 15 y Odoo por la 14.
+   * *Ahora mismo:* Ya estamos a finales de 2026, así que Odoo ya va por la **18.0** y ERPNext por la **16**. Montar la versión 14 de Odoo ahora mismo es un atraso, te pierdes el TPV nuevo y rinde peor.
+   * *De dónde lo saco:* De sus repositorios oficiales en GitHub.
+
+2. **SuiteCRM cambió entero por dentro:**
+   * *En el tema (pág. 8):* Habla de la versión 7.14.5.
+   * *Ahora mismo:* La rama 7 ya es historia. Ahora usan la **8.10**, que cambio de manera brutal. Tiraron la base vieja de SugarCRM a la basura y rehicieron el programa entero con Symfony y Angular.
+   * *De dónde lo saco:* De los foros y la documentación oficial de SuiteCRM.
+
+3. **El nombre del lenguaje del servidor:**
+   * *En el tema (págs. 6 y 7):* Llama al lenguaje `"Phyton"` con la hache después de la P.
+   * *Ahora mismo:* Es **Python**, de toda la vida.
+   * *De dónde lo saco:* python.org.
