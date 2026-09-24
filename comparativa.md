@@ -22,3 +22,47 @@ Que el código sea libre no significa que montar el sistema te salga gratis. Pon
 ### Versiones Community vs Enterprise y el tema del copyleft
 * **El modelo Open Core (Community vs Enterprise):** Odoo es el caso perfecto para entender esto, te dan una versión Community que es libre y no pagas licencias por usuario, pero viene con menos opciones yte tienes que buscar la vida si algo falla. Si quieres los módulos buenos de verdad y tener soporte directo del fabricante, tienes que pagar  la versión "Enterprise".
 * **La licencia AGPLv3 (Uso por red):** Esta licencia se la inventaron para cubrir un hueco legal porque habían empresas que pillaban software libre, lo mejoraban y lo montaban en un servidor web cobrando por usarlo, sin compartir sus mejoras. Con la AGPLv3, si montas un servicio web usando ese código y los clientes interactúan por red, estás obligado por ley a liberar el código con todos los cambios que hayas hecho.
+
+---
+
+## 3. Fichas Técnicas
+
+### 3.1. ERP Libre: Odoo Community
+* **Licencia exacta:** GNU LGPLv3.
+* **Versión actual:** Odoo 18.0.
+* **Lenguajes:** Python por detrás (backend) y JavaScript usando el framework OWL para la interfaz.
+* **Base de datos:** PostgreSQL (versión 13 para arriba).
+* **Cómo se instala:** Lo puedes montar en un servidor tuyo en local o alquilar un VPS en la nube.
+* **Módulos clave para nosotros:** TPV para hostelería (sirve para ver el plano de mesas y mandar comandas a cocina), compras, inventario y ventas.
+* **Qué máquina pide:** Un servidor Linux , mínimo 2 núcleos, 4 GB de RAM y un disco SSD para que vaya fluido.
+* **Fuente:** https://www.odoo.com/documentation/18.0/ (Mirado en septiembre de 2026).
+
+### 3.2. ERP Propietario: Microsoft Dynamics 365 Business Central
+* **Licencia exacta:** Propietaria de Microsoft. Tienes que pagar suscripción mensual por cada empleado que lo use.
+* **Versión actual:** Dynamics 365 Business Central 2026 Release Wave.
+* **Lenguajes:** Lenguaje AL sobre la plataforma .NET Core / C#.
+* **Base de datos:** Azure SQL si vas por la nube, o SQL Server si lo montas en local.
+* **Cómo se instala:** Está pensado para usarse directamente en la nube de Microsoft (SaaS), aunque te dejan instalarlo en local si quieres.
+* **Módulos clave:** Finanzas, control de compras a proveedores, gestión de almacenes y estadísticas con Power BI.
+* **Qué máquina pide:** Si vas por la nube, solo un navegador. Si es en local, tienes que tener  Windows Server, SQL Server y mínimo 16 GB de RAM.
+* **Fuente:** https://learn.microsoft.com/es-es/dynamics365/business-central/ (Mirado en septiembre de 2026).
+
+### 3.3. CRM Libre: SuiteCRM
+* **Licencia exacta:** GNU AGPLv3 .
+* **Versión actual:** SuiteCRM 8.10.
+* **Lenguajes:** PHP (versión 8.2 o superior) tirando de Symfony para el backend y Angular para que la web se vea moderna.
+* **Base de datos:** MariaDB o MySQL.
+* **Cómo se instala:** En un servidor web propio  o usando contenedores de Docker que es mas comodo.
+* **Módulos clave:** Fichas de clientes, controlar oportunidades de venta, mandar emails masivos y gestionar quejas o incidencias.
+* **Qué máquina pide:** Un servidor Linux típico LAMP (Apache, MySQL), con 2 CPUs y 4 GB de RAM va sobrado.
+* **Fuente:** https://suitecrm.com/resources/documentation/ (Mirado en septiembre de 2026).
+
+### 3.4. CRM Propietario: Salesforce Sales Cloud
+* **Licencia exacta:** Propietaria comercial. Pagas por usuario y mes, y no es barato.
+* **Versión actual:** Salesforce Spring/Winter '26.
+* **Lenguajes:** Lenguaje Apex (uno suyo propio) y componentes web Lightning en la interfaz.
+* **Base de datos:** No la tocas, es la propia base de datos relacional de Salesforce que te gestionan ellos en sus servidores.
+* **Cómo se instala:** Es 100% en la nube (SaaS). Nada de servidores propios.
+* **Módulos clave:** Gestión a tope de clientes, ver cómo va el embudo de ventas, automatizar tareas y reportes en tiempo real.
+* **Qué máquina pide:** Conexión a internet y un navegador web o el móvil, nada más.
+* **Fuente:** https://www.salesforce.com/es/products/sales-cloud/ (Mirado en septiembre de 2026).
