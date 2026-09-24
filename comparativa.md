@@ -87,3 +87,30 @@ He estado mirando los apuntes del Tema 2 y hay algunas cosas que se han quedado 
    * *En el tema (págs. 6 y 7):* Llama al lenguaje `"Phyton"` con la hache después de la P.
    * *Ahora mismo:* Es **Python**, de toda la vida.
    * *De dónde lo saco:* python.org.
+
+---
+
+## 5. Matriz de Decisión y Recomendación Final
+
+### ¿Por qué he puesto estos criterios para El Fogón Casero?
+1. **TPV táctil (25%):** Es lo más crítico. Son 5 locales a tope; si el TPV peta y no llegan las comandas a la cocina, se lía .
+2. **Centralizar compras (20%):** Lo pide el enunciado. Cada local compra por su lado y la central necesita juntarlo todo para negociar precios con los proveedores.
+3. **Integración con delivery (20%):** Quieren que los pedidos web entren solos a cocina para que los camareros no tengan que estar picando los tickets a mano.
+4. **Estadísticas de ventas (15%):** Para saber rápido qué platos funcionan y cuáles no se piden nunca.
+5. **Coste para 45 trabajadores (10%):** Pagar una licencia mensual por cada camarero en un software propietario tipo Dynamics nos costaría mucho dinero todos los meses.
+6. **Facilidad de uso (10%):** En hostelería la gente entra y sale mucho, la pantalla tiene que ser a prueba de tontos para que la pillen el primer día.
+
+### Puntuaciones de la matriz (sobre 10):
+* **Odoo Community:** 9,10
+* **Microsoft Dynamics 365 Business Central:** 7,10
+* **SuiteCRM:** 3,50
+
+### Decisión final: Odoo Community
+Para "El Fogón Casero" la mejor opción  es **Odoo Community**. 
+
+Me decanto por este porque ya trae de serie un módulo de TPV pensado para restaurantes, no hay que inventar nada. Te permite montar varias tiendas bajo una central (solucionado lo de agrupar las compras), y al tener una API abierta, se pueden enchufar las apps de Glovo o Just Eat. Pero la razón principal es económica ya que al ser la versión libre, nos ahorramos pagar las 45 licencias mensuales de los camareros.
+
+### Riesgos de montar esto:
+* **Inversión inicial:** Nos ahorramos las licencias, pero hay que soltar pasta de golpe para comprar las pantallas táctiles, montar el servidor y pagar a un programador para que nos deje todo configurado a medida.
+* **Soporte técnico nulo:** Al no pagarle a Odoo, si el sistema se cae un sábado por la noche búscate la vida. La cadena tendrá que contratar sí o sí un mantenimiento a un informático de la zona para tener las espaldas cubiertas.
+* **Quedarte tirado con el informático:** Es difícil. Al estar programado en Python y usar PostgreSQL, es un estándar. Si el técnico nos deja tirados, contratamos a otro y listo.
